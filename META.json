@@ -44,6 +44,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Exporter::Shiny" : "0",
+            "String::ShellQuote" : "0",
+            "Win32::ShellQuote" : "0",
             "perl" : "5.008005"
          }
       },
@@ -58,7 +61,7 @@
    "provides" : {
       "HTTP::Request::AsCurl" : {
          "file" : "lib/HTTP/Request/AsCurl.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -72,5 +75,5 @@
          "web" : "https://github.com/kablamo/HTTP-Request-AsCurl"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
