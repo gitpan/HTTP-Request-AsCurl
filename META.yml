@@ -30,7 +30,7 @@ no_index:
 provides:
   HTTP::Request::AsCurl:
     file: lib/HTTP/Request/AsCurl.pm
-    version: 0.02
+    version: 0.03
 requires:
   Exporter::Shiny: 0
   String::ShellQuote: 0
@@ -40,4 +40,4 @@ resources:
   bugtracker: https://github.com/kablamo/HTTP-Request-AsCurl/issues
   homepage: https://github.com/kablamo/HTTP-Request-AsCurl
   repository: git://github.com/kablamo/HTTP-Request-AsCurl.git
-version: 0.02
+version: 0.03
